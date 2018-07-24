@@ -56,7 +56,7 @@ oscc_result_t oscc_open( unsigned int channel )
 {
     oscc_result_t result = OSCC_ERROR;
     //not part of original API, added for debugging purposes
-    printf("oscc_open has been run");
+//    printf("oscc_open has been run");
 
     can_contains_s channel_contents =
         {
@@ -88,14 +88,14 @@ oscc_result_t oscc_open( unsigned int channel )
     {
         result = register_can_signal();
         //not part of original API, added for debugging purposes
-        printf("register_can_signal has been called by oscc_open");
+  //      printf("register_can_signal has been called by oscc_open");
     }
 
     if ( result == OSCC_OK && global_oscc_can_socket >= 0 )
     {
         result = oscc_async_enable( global_oscc_can_socket );
         //not part of original API, added for debugging purposes
-        printf("oscc_async_enable has been called by oscc_open");
+//        printf("oscc_async_enable has been called by oscc_open");
     }
     else
     {
@@ -343,7 +343,7 @@ oscc_result_t oscc_subscribe_to_obd_messages( void (*callback)(struct can_frame 
 /* Internal */
 oscc_result_t oscc_enable_brakes( void )
 {
-    printf("oscc_enable_brakes has run");
+//  printf("oscc_enable_brakes has run");
 
     oscc_result_t result = OSCC_ERROR;
 
@@ -583,7 +583,7 @@ oscc_result_t oscc_can_write( long id, void *msg, unsigned int dlc )
 
 oscc_result_t register_can_signal( )
 {
-    printf("register_can_signal has run");
+//    printf("register_can_signal has run");
     oscc_result_t result = OSCC_ERROR;
 
     struct sigaction sig;
@@ -598,7 +598,7 @@ oscc_result_t register_can_signal( )
     if( sigaction( SIGIO, &sig, NULL ) == 0 )
     {
         result = OSCC_OK;
-        printf("register_can_signal - sigaction has returned OSCC_OK");
+  //      printf("register_can_signal - sigaction has returned OSCC_OK");
     }
 
     return result;
@@ -607,7 +607,7 @@ oscc_result_t register_can_signal( )
 
 oscc_result_t oscc_async_enable( int socket )
 {
-    printf("oscc_async_enable has run");
+  //  printf("oscc_async_enable has run");
     oscc_result_t result = OSCC_ERROR;
 
     int ret = fcntl( socket, F_SETOWN, getpid( ) );

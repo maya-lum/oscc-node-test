@@ -18,8 +18,8 @@ int can_open(int channel){
 	outputValue = OSCC_ERROR;
 	outputValue = oscc_open(channel);
 	return outputValue;
-	printf("can_open function has run");
-	printf("oscc_open should have been called by can_open");
+//	printf("can_open function has run");
+//	printf("oscc_open should have been called by can_open");
 }
 
 void can_close(int channel){
@@ -30,13 +30,13 @@ int enable_brakes(){
 	outputValue = OSCC_ERROR;
 	outputValue = oscc_enable_brakes();
 	return outputValue;
-	printf("enable_brakes has run");
+//	printf("enable_brakes has run");
 }
 
 void disable_brakes(){
 	outputValue = OSCC_ERROR;
 	outputValue = oscc_disable_brakes();
-	printf("disable_brakes has run");
+//	printf("disable_brakes has run");
 
 }
 
@@ -63,13 +63,13 @@ int main(int argc, char **argv){
 		channel = atoi(argv[0]);
 	}
 	outputValue = can_open(channel);
-	printf("can_open should have been called by main");
+//	printf("can_open should have been called by main");
 	if (outputValue == OSCC_OK)
 	{
 		outputValue = OSCC_ERROR;
 		outputValue = enable_brakes();
 		return outputValue;
-		printf("OSCC_OK");
+//		printf("OSCC_OK");
 	}
 	else
 	{
