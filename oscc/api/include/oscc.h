@@ -4,6 +4,7 @@
  *        and send requested targets to the modules.
  */
 
+//edited to work with c++ files. might be broken now???
 
 #ifndef _OSCC_H
 #define _OSCC_H
@@ -63,6 +64,9 @@ oscc_result_t oscc_init();
  * @return OSCC_ERROR or OSCC_OK
  *
  */
+#ifndef __cplusplus
+extern "C"{
+#endif
 oscc_result_t oscc_open( unsigned int channel );
 
 
@@ -315,6 +319,7 @@ oscc_result_t get_steering_wheel_angle(
 oscc_result_t get_brake_pressure(
     struct can_frame const * const frame,
     double * brake_pressure);
-
-
+#ifndef __cplusplus
+}
+#endif //for __cplusplus endif
 #endif /* _OSCC_H */

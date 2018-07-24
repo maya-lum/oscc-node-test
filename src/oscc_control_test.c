@@ -70,7 +70,7 @@ int main(int argc, char **argv){
 		return outputValue;
 //		printf("OSCC_OK");
 	}
-		disable_brakes();
-		can_close(channel);
-		return 0;
+	disable_brakes();
+	can_close(channel);
+	return 0;
 }
