@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/burrite/Documents/OsccDirectTest
+CMAKE_SOURCE_DIR = /home/burrite/oscc-node-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/burrite/Documents/OsccDirectTest/build
+CMAKE_BINARY_DIR = /home/burrite/oscc-node-test/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/oscc-direct-test.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/burrite/Documents/OsccDirectTest/build
 CMakeFiles/oscc-direct-test.dir/all:
 	$(MAKE) -f CMakeFiles/oscc-direct-test.dir/build.make CMakeFiles/oscc-direct-test.dir/depend
 	$(MAKE) -f CMakeFiles/oscc-direct-test.dir/build.make CMakeFiles/oscc-direct-test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/burrite/Documents/OsccDirectTest/build/CMakeFiles  1 2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/burrite/oscc-node-test/build/CMakeFiles  1 2
 	@echo "Built target oscc-direct-test"
 .PHONY : CMakeFiles/oscc-direct-test.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/oscc-direct-test.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/oscc-direct-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/burrite/Documents/OsccDirectTest/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/burrite/oscc-node-test/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/oscc-direct-test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/burrite/Documents/OsccDirectTest/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/burrite/oscc-node-test/build/CMakeFiles 0
 .PHONY : CMakeFiles/oscc-direct-test.dir/rule
 
 # Convenience name for target.

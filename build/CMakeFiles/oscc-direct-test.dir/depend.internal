@@ -12,8 +12,8 @@ CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.o
  ../oscc/api/include/vehicles/kia_niro.h
  ../oscc/api/include/vehicles/kia_soul_ev.h
  ../oscc/api/include/vehicles/kia_soul_petrol.h
- /home/burrite/Documents/OsccDirectTest/oscc/api/src/internal/oscc.h
- /home/burrite/Documents/OsccDirectTest/oscc/api/src/oscc.c
+ /home/burrite/oscc-node-test/oscc/api/src/internal/oscc.h
+ /home/burrite/oscc-node-test/oscc/api/src/oscc.c
 CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.o
  ../oscc/api/include/can_protocols/brake_can_protocol.h
  ../oscc/api/include/can_protocols/fault_can_protocol.h
@@ -25,4 +25,4 @@ CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.o
  ../oscc/api/include/vehicles/kia_niro.h
  ../oscc/api/include/vehicles/kia_soul_ev.h
  ../oscc/api/include/vehicles/kia_soul_petrol.h
- /home/burrite/Documents/OsccDirectTest/src/oscc_control_test.c
+ /home/burrite/oscc-node-test/src/oscc_control_test.c

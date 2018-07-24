@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/burrite/Documents/OsccDirectTest
+CMAKE_SOURCE_DIR = /home/burrite/oscc-node-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/burrite/Documents/OsccDirectTest/build
+CMAKE_BINARY_DIR = /home/burrite/oscc-node-test/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/oscc-direct-test.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/oscc-direct-test.dir/flags.make
 
 CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.o: CMakeFiles/oscc-direct-test.dir/flags.make
 CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.o: ../src/oscc_control_test.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/burrite/Documents/OsccDirectTest/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/burrite/oscc-node-test/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.o   -c /home/burrite/Documents/OsccDirectTest/src/oscc_control_test.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.o   -c /home/burrite/oscc-node-test/src/oscc_control_test.c
 
 CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/burrite/Documents/OsccDirectTest/src/oscc_control_test.c > CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/burrite/oscc-node-test/src/oscc_control_test.c > CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.i
 
 CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/burrite/Documents/OsccDirectTest/src/oscc_control_test.c -o CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/burrite/oscc-node-test/src/oscc_control_test.c -o CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.s
 
 CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.o.requires:
 .PHONY : CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.o.requires
@@ -74,17 +74,17 @@ CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.o.provides.build: CMakeF
 
 CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.o: CMakeFiles/oscc-direct-test.dir/flags.make
 CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.o: ../oscc/api/src/oscc.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/burrite/Documents/OsccDirectTest/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/burrite/oscc-node-test/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.o   -c /home/burrite/Documents/OsccDirectTest/oscc/api/src/oscc.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.o   -c /home/burrite/oscc-node-test/oscc/api/src/oscc.c
 
 CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/burrite/Documents/OsccDirectTest/oscc/api/src/oscc.c > CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/burrite/oscc-node-test/oscc/api/src/oscc.c > CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.i
 
 CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/burrite/Documents/OsccDirectTest/oscc/api/src/oscc.c -o CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/burrite/oscc-node-test/oscc/api/src/oscc.c -o CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.s
 
 CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.o.requires:
 .PHONY : CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.o.requires
@@ -123,6 +123,6 @@ CMakeFiles/oscc-direct-test.dir/clean:
 .PHONY : CMakeFiles/oscc-direct-test.dir/clean
 
 CMakeFiles/oscc-direct-test.dir/depend:
-	cd /home/burrite/Documents/OsccDirectTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/burrite/Documents/OsccDirectTest /home/burrite/Documents/OsccDirectTest /home/burrite/Documents/OsccDirectTest/build /home/burrite/Documents/OsccDirectTest/build /home/burrite/Documents/OsccDirectTest/build/CMakeFiles/oscc-direct-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/burrite/oscc-node-test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/burrite/oscc-node-test /home/burrite/oscc-node-test /home/burrite/oscc-node-test/build /home/burrite/oscc-node-test/build /home/burrite/oscc-node-test/build/CMakeFiles/oscc-direct-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/oscc-direct-test.dir/depend
 

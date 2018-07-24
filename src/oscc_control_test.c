@@ -64,18 +64,13 @@ int main(int argc, char **argv){
 	}
 	outputValue = can_open(channel);
 //	printf("can_open should have been called by main");
-	if (outputValue == OSCC_OK)
-	{
+	while (outputValue == OSCC_OK) {
 		outputValue = OSCC_ERROR;
 		outputValue = enable_brakes();
 		return outputValue;
 //		printf("OSCC_OK");
 	}
-	else
-	{
 		disable_brakes();
 		can_close(channel);
-
-	}
-	return 0;
+		return 0;
 }

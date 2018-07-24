@@ -1,1 +1,1 @@
-/home/burrite/Documents/OsccDirectTest/build/CMakeFiles/oscc-direct-test.dir
+/home/burrite/oscc-node-test/build/CMakeFiles/oscc-direct-test.dir

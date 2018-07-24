@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/burrite/Documents/OsccDirectTest/oscc/api/src/oscc.c" "/home/burrite/Documents/OsccDirectTest/build/CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.o"
-  "/home/burrite/Documents/OsccDirectTest/src/oscc_control_test.c" "/home/burrite/Documents/OsccDirectTest/build/CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.o"
+  "/home/burrite/oscc-node-test/oscc/api/src/oscc.c" "/home/burrite/oscc-node-test/build/CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.o"
+  "/home/burrite/oscc-node-test/src/oscc_control_test.c" "/home/burrite/oscc-node-test/build/CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 
