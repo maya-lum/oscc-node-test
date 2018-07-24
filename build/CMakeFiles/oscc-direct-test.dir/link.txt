@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/oscc-direct-test.dir/src/oscc_control_test.c.o CMakeFiles/oscc-direct-test.dir/oscc/api/src/oscc.c.o  -o oscc-direct-test -rdynamic 

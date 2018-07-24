@@ -1,0 +1,3 @@
+/home/burrite/Downloads/oscc-master/api/build/CMakeFiles/osccapi_objects.dir
+/home/burrite/Downloads/oscc-master/api/build/CMakeFiles/osccapi_shared_lib.dir
+/home/burrite/Downloads/oscc-master/api/build/CMakeFiles/osccapi_static_lib.dir
